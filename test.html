@@ -1,0 +1,60 @@
+<!-- Dark/Light Mode Toggle -->
+<button id="toggle-theme" style="position:fixed;top:20px;right:20px;z-index:1000;padding:8px 16px;border:none;border-radius:6px;background:#232323;color:#fff;cursor:pointer;">🌙 Skift tema</button>
+
+<script>
+// Dark/Light Mode
+const btn = document.getElementById('toggle-theme');
+btn.onclick = function() {
+    document.body.classList.toggle('dark-mode');
+    btn.textContent = document.body.classList.contains('dark-mode') ? '☀️ Skift tema' : '🌙 Skift tema';
+};
+// Tilføj lidt dark-mode styling
+const style = document.createElement('style');
+style.innerHTML = `
+.dark-mode {
+    background: #181818 !important;
+    color: #eee !important;
+}
+.dark-mode .navbar, .dark-mode .hero-section, .dark-mode .experience-box, .dark-mode .experience1-box, .dark-mode .about-section, .dark-mode .contact-hero-box {
+    background: #232323 !important;
+    color: #eee !important;
+}
+.dark-mode .experience-box, .dark-mode .experience1-box, .dark-mode .contact-hero-box {
+    border-color: #ff9900 !important;
+}
+`;
+document.head.appendChild(style);
+</script>
+
+<!-- Skrivemaskine-effekt på din titel -->
+<script>
+const text = "I'M A WEB";
+const el = document.querySelector('.hero-title1');
+if(el) {
+    el.textContent = "";
+    let i = 0;
+    function typeWriter() {
+        if (i < text.length) {
+            el.textContent += text.charAt(i);
+            i++;
+            setTimeout(typeWriter, 90);
+        }
+    }
+    typeWriter();
+}
+</script>
+
+<!-- Random fun fact eller citat -->
+<script>
+const facts = [
+    "Vidste du? Jeg elsker at kode sent om aftenen!",
+    "Fun fact: Jeg har bygget min første hjemmeside som 13-årig.",
+    "Citat: 'Simplicity is the soul of efficiency.' – Austin Freeman",
+    "Vidste du? Jeg drikker altid kaffe, når jeg designer.",
+    "Fun fact: Jeg lærer hurtigt nye teknologier!"
+];
+const factBox = document.createElement('div');
+factBox.style.cssText = "position:fixed;bottom:20px;left:20px;background:#232323;color:#fff;padding:14px 22px;border-radius:8px;box-shadow:0 2px 8px #0003;font-size:1em;z-index:1000;";
+factBox.textContent = facts[Math.floor(Math.random()*facts.length)];
+document.body.appendChild(factBox);
+</script>

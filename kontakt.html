@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head> 
+
+    <title>Kontakt Information </title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="kontakt.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <button class="tilbage" 
+	onclick="window.location.href='hjemmeside.html'">
+	Tilbage</button>
+
+
+    <div class="Boks">
+        <p class="kontakt-tekst">Kontakt Information</p>
+        <p class="Indhold"></p>
+    </div>
+
+  
+
+
+        <div class="custom-alert" id="myAlert1">
+        <span class="alert-tekst">Mails svares inden for 24 timer. Jeg vender tilbage hurtigst muligt.</span>
+      <span class="close-btn" onclick="closeAlert1()">&times;</span>
+      
+    </div>
+
+    <div>
+        <div class="Boks1">
+            <span class="information">Information <br></br></span>
+    
+        <p class="k">Email: oliver.lobel@yahoo.dk</p>
+        <br></br>
+        <p class="k1">Telefon: +45 50 24 08 24</p>
+
+        </div>
+         <div class="Boks1-Farve">
+        </div>
+
+
+
+        <div class="Boks3">
+        <div class="Boks3-tekst">   
+        <p>Hvis du ønsker kontakt bedes du at sende en mail, til min mail-adresse</p>
+        <p>Jeg er åben overfor alle udfordinger, skriv kort hvad du ønsker, og vi finder en løsning.</p>
+        <p>Du kan tjeke mit tidligere arbejde, under knappen "Mit Arbejde"</p>
+    <div>
+            <button class="min-knap" 
+            onclick="window.location.href='ny-side.html'">
+            Mit Arbejde</button>
+    </div>
+        </div>
+        
+         </div>
+         <div class="Boks3-Farve">
+        </div>
+
+    </div>
+
+    
+
+
+    <div class="footer">
+        <p>© 2025 Oliver Lobel. Alle rettigheder forbeholdes.</p>
+    </div>
+
+
+<div class="kontakt-tider">
+  <div class="kontakt-tider-title">Svartider</div>
+  <div class="kontakt-tider-info">
+    Jeg svarer typisk på henvendelser:<br>
+    <span>Mandag-Fredag: 09:000 - 17:00</span><br>
+    <span>Lørdag-Søndag: Efter aftale</span>
+  </div>
+</div>
+
+
+</body>
+
+
+
+
+    <script>    
+    function closeAlert1() {
+      document.getElementById('myAlert1')     
+      .style.display = 'none';
+    }
+
+
+    const text = "Mails svares inden for 24 timer. Jeg vender tilbage hurtigst muligt.";
+    const el = document.querySelector('.alert-tekst');
+    if(el) {
+    el.textContent = "";
+    let j = 0;
+    function typeWriter2() {
+        if (j < text.length) {
+            el.textContent += text.charAt(j);
+            j++;
+            setTimeout(typeWriter2, 15);
+        }
+    }
+    typeWriter2();
+}
+    </script>
+</body>
+
+
+
+
+</html>

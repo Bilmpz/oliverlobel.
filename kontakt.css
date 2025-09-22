@@ -1,0 +1,214 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: #181818;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.Boks {
+    background: #232323;
+    border-radius: 0px;
+    padding: 20px;
+    box-shadow: 0 2px 12px #0004;
+    position: relative;
+    height: 40px;
+  
+    
+}
+.kontakt-tekst {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #ff9900;
+    
+
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #232323;
+    color: #bbb;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 12px #0004;
+}
+
+.custom-alert {
+  background-color: #ff9900;
+  color: rgb(255, 255, 255);
+  margin-bottom: 5px;
+  border-radius: 4px;
+  margin-top: -400px;
+  position: absolute;
+  top: 490px;
+  width: 1240px;
+  height: 110px;
+  left: 240px;
+  opacity: 0.6;
+  z-index: 1000;
+  
+
+  
+  
+  font-size: 16px;
+}
+.alert-tekst{
+  position: absolute;
+  left: 60px;
+  top: 33px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight:800;
+  font-size: 38px;
+  
+}
+
+.close-btn {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.Boks1 {
+    background: #232323;
+    border-radius: 12px;
+    width: 300px;
+    height: 250px;
+    padding: 10px 20px ;
+    position: absolute;
+    right: 250px;
+    top: 250px;
+    box-shadow: #ff9900;;
+    z-index: 100;
+    
+}
+
+.Boks1-Farve{
+    background: #ff9900;
+    border-radius: 12px;
+    width: 300px;
+    height: 247px;
+    padding: 10px 20px ;
+    position: absolute;
+    right: 246px;
+    top: 251px;
+
+    
+}
+
+.Boks3 {
+    background: #232323;
+    border-radius: 12px;
+    width: 500px;
+    height: 250px;
+    padding: 10px 20px ;
+    position: absolute;
+    left: 250px;
+    top: 250px;
+    z-index: 10;
+    
+}
+
+.Boks3-Farve{
+    background: #ff9900;
+    border-radius: 12px;
+    width: 300px;
+    height: 247px;
+    padding: 10px 20px ;
+    position: absolute;
+    left: 245px;
+    top: 251px;
+}
+
+
+.tilbage{
+  position: absolute;
+  padding: 8px;
+  z-index: 1000;
+  top: 18px;
+  left: 5px;
+  background-color: #232323;
+  color: white;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #303030;
+  box-shadow: 0 2px 12px rgba(102, 18, 18, 0.267);
+}
+.tilbage:hover{
+  background-color: rgb(75, 75, 75);
+  cursor: pointer;
+}
+
+.Boks1:hover{
+  background-color: #282828;
+}
+
+.information{
+  margin-top: 30px;
+  padding-left: 80px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  
+
+}
+
+.k{
+  font-style: oblique;
+  padding-left: 0px;
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+.k1{
+  font-style: oblique;
+  padding-left: 0px;
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+.Boks3-tekst{
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 19px;
+}
+
+.kontakt-tider {
+  margin-top: 608px;
+  background: #232323;
+  border-radius: 8px;
+  padding: 16px 20px;
+  color: #ff9900;
+  text-align: center;
+  box-shadow: 0 2px 12px #0002;
+}
+.kontakt-tider-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.kontakt-tider-info {
+  font-size: 16px;
+  color: #fff;
+}
+.min-knap{
+background-color: #ff9900;
+margin-left: 170px;
+font-size: 16px;
+font-weight: bold;
+border-radius: 30px;
+border-style: solid;
+color: black;
+border-width: 0px;
+padding: 10px 20px 10px 20px;
+margin-top: -100px;
+}
+
+.min-knap:hover{
+  cursor: pointer;
+  background-color: white;
+  color: #ff9900;
+}
