@@ -40,12 +40,13 @@ body {
   color: rgb(255, 255, 255);
   margin-bottom: 5px;
   border-radius: 4px;
-  margin-top: -400px;
-  position: absolute;
-  top: 490px;
+  position: fixed;
+  top: 11%;
+  left: 14%;
+  margin-left: auto;
+  margin-right: auto;
   width: 1240px;
   height: 110px;
-  left: 240px;
   opacity: 0.6;
   z-index: 1000;
   
@@ -55,9 +56,11 @@ body {
   font-size: 16px;
 }
 .alert-tekst{
-  position: absolute;
-  left: 60px;
-  top: 33px;
+  position: fixed;
+  top: 14%;
+  left: 17%;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Roboto', Arial, sans-serif;
   font-weight:800;
   font-size: 38px;
