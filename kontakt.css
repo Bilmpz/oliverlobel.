@@ -215,3 +215,42 @@ margin-top: -100px;
   background-color: white;
   color: #ff9900;
 }
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 0 4px;
+  }
+  .Boks, .Boks1, .Boks3 {
+    padding: 12px 8px;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  .kontakt-tekst, .information, .Boks3-tekst {
+    font-size: 18px;
+  }
+  .footer {
+    font-size: 13px;
+    padding: 6px;
+  }
+  .tilbage, .min-knap {
+    font-size: 15px;
+    padding: 8px 16px;
+  }
+  .custom-alert {
+    min-width: 180px;
+    max-width: 98vw;
+    padding: 16px 8px;
+    font-size: 15px;
+  }
+  .alert-tekst {
+    font-size: 15px;
+  }
+  .kontakt-tider {
+    font-size: 15px;
+    padding: 8px;
+  }
+  .kontakt-tider-title {
+    font-size: 17px;
+  }
+}

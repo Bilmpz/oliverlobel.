@@ -355,4 +355,39 @@ body
 	opacity: 0.7;
 }
 
-	
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 0 4px;
+  }
+  .Boks, .Boks1, .Boks3, .test-boks, .project-card {
+    padding: 12px 8px;
+    font-size: 16px;
+    border-radius: 8px;
+  }
+  .kontakt-tekst, .information, .Boks3-tekst, .project-title {
+    font-size: 18px;
+  }
+  .footer {
+    font-size: 13px;
+    padding: 6px;
+  }
+  .tilbage, .min-knap {
+    font-size: 15px;
+    padding: 8px 16px;
+  }
+  .banner {
+    height: 60px;
+  }
+  .banner-logos {
+    gap: 40px;
+  }
+  .banner-logos img {
+    height: 40px;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
